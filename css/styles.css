@@ -1,0 +1,153 @@
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    color: #000000DE;
+    font: 13px arial, sans-serif;
+    margin: 5px;
+    padding: 0px 0px 0px 15px;
+    text-align-last: right;
+    height: px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+}
+
+.header_icons {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.header_icons .sign_in {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    cursor: default;
+    text-decoration: none;
+    line-height: 28px;
+    padding: 5px 12px;
+    font-size: 14px;
+    color: white;
+    background:  #4285f4;
+    margin-right: 20px;
+}
+
+.header_icons .fa-th {
+    font-size: 18px;
+    color: gray;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header_icons .fa-th:hover{
+    color: #000;
+}
+
+.header_icons a {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.header_icons a:hover {
+    color: gray
+}
+
+.main_container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    text-align: center;
+}
+
+.fake_container {
+    margin: 24px;
+    display: flex;
+    background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #dfe1e5;
+    box-shadow: 2px;
+    border-radius: 24px;
+    height: 46px;
+    width: 570px;
+}
+
+.fake_container:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.icon {
+    fill: currentColor;
+    height: 20px;
+    margin: 14px;
+    color: #9aa0a6;
+}
+
+#search_bar {
+    background-color: transparent;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    text-align: left; 
+    padding-top: 4px;
+}
+
+#search_bar,
+#search_bar input,
+#search_bar:hover {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+
+#microphone {
+    fill: currentColor;
+    height: 20px;
+    margin: 10px;
+    padding: 0 8px;
+    color: #9aa0a6;
+    cursor: pointer;
+}
+.search_i_am_lucky {
+    background-color: transparent;
+    position: absolute;
+    left: 30%;
+}
+
+
+#google_search input,
+#lucky input {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 8px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+#google_search input:hover,
+#lucky input:hover{
+    box-shadow: 0 1px 4px 0 gray;
+    outline: none;
+    border-color: rgba(223,225,229,0);
+}
+
+
+
+

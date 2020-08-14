@@ -2,19 +2,50 @@
 <html lang="en">
 
 <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all"> 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Google Search</title>
 </head>
 
 <body>
-    <ul class="nav">
-        <a href="image_search.html">Google Image</a>
-        <a href="advanced_search.html">Google Advanced Search</a>
-    </ul>
-    <p>Google</p>
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
-</body>
+    <div class="nav">
+        <div class="header_icons">
+            <a class="images" href="images_search.html" target="_top">Images</a>
+            <a class="advanced" href="advanced_search.html" target="_top">Advanced Search</a>
+            <i class="fa fa-th"></i>
+            <a class="sign_in" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAVAAQ" target="_top">Sign in</a>
+        </div>
+    </div>
+    <span class="main_container">
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="260"></a>
+        </div>
+        <form action="https://www.google.com/search">
+            <div class="fake_container">
+                <span class="search_icon">
+                    <svg class="icon" focusable="false" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                </span>
+                <span id="search_bar">
+                    <input type="text" name="q" maxlength="2048">
+                </span>
+                <span id="microphone">
+                    <i class="fa fa-microphone" title="Search by voice"></i>
+                </span>
 
+            </div>
+
+            <div class="search_i_am_lucky">
+                <span id="google_search">
+                        <input type="submit" name="q" value="Google Search">
+                </span>
+                <span id="lucky">
+                    <input name="btnI" value="I'm Feeling Lucky" type="submit">
+                </span>
+            </div>
+        </form>
+    </span>
+</body>
 </html>
