@@ -33,7 +33,6 @@ body {
     background:  #4285f4;
     margin-right: 20px;
 }
-
 .header_icons .fa-th {
     font-size: 18px;
     color: gray;
@@ -67,6 +66,13 @@ body {
     text-align: center;
 }
 
+.logo_subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 388px;
+    top: 75px;
+    position: absolute;
+}
 .fake_container {
     margin: 24px;
     display: flex;
@@ -109,11 +115,11 @@ body {
 }
 
 
-#microphone {
+#microphone,
+#search_icon2,
+#camera {
     fill: currentColor;
-    height: 20px;
     margin: 10px;
-    padding: 0 8px;
     color: #9aa0a6;
     cursor: pointer;
 }
@@ -122,7 +128,6 @@ body {
     position: absolute;
     left: 30%;
 }
-
 
 #google_search input,
 #lucky input {
@@ -148,6 +153,24 @@ body {
     border-color: rgba(223,225,229,0);
 }
 
+#search_icon2 {
+    background: transparent;
+    border: none;
+}
 
+#search_icon2:focus {
+    outline: none;
+}
 
+.icon2 {
+    color: #4285f4;
+}
+
+#camera {
+    height: 24px;
+    width: 24px;
+    background: url(https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png) 0 0 no-repeat;
+    background-size: 24px;  
+    padding: 0 8px;
+}
 
