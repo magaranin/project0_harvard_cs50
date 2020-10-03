@@ -15,6 +15,7 @@ On the Google Search page, the user is able to type in a query, click “Google 
 The “I’m Feeling Lucky” button is consistent to the main Google Search page is consistent with Google’s own behavior. Clicking this button takes the user directly to the location of the first Google search result for the query, bypassing the normal results page.
 On the Google Image Search page, the user is able to type in a query. Clicking the search button here will take the user to the Google Image search results for that query.
 On the Google Advanced Search page, the user is able to provide input for the following four fields.
+
     1. Find pages with… “all these words:”
     2. Find pages with… “this exact word or phrase:”
     3. Find pages with… “any of these words:”
